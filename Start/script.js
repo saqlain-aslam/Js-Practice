@@ -17,3 +17,13 @@ console.log(info);
 // by id
 let learn = document.querySelector("#learn");
 console.log(learn);
+
+//chnaging content by innerhtml or textcontent
+let firstName = document.querySelector(".name");
+console.log(firstName);
+
+firstName.innerHTML = "Hasnain";
+console.log(`After .innerhtml: ${firstName}`);
+
+firstName.textContent = "Hasnain";
+console.log(`After .textContent: ${firstName}`);
