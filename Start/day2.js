@@ -32,3 +32,4 @@ console.log(arr1);
 // Make the length of array dynamic and take the inputs and length of array from the user
 
 //solution
+let arr2 = new Array();
