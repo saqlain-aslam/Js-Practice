@@ -27,3 +27,4 @@ console.log(`After .innerhtml: ${firstName}`);
 
 firstName.textContent = "Hasnain";
 console.log(`After .textContent: ${firstName}`);
+
