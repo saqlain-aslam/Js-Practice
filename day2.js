@@ -21,7 +21,7 @@ console.log(`Array Destructuring`);
 [arr1[0], arr1[4]] = [arr1[4], arr1[0]];
 console.log(arr1);
 
-//solution2
+//solution3
 console.log(`Array Splice method`);
 // Splice method is used to modify the array by addding, remmoving and replacing the content of array
 arr1.splice(0, 1, arr1[4]);
@@ -32,4 +32,12 @@ console.log(arr1);
 // Make the length of array dynamic and take the inputs and length of array from the user
 
 //solution
-let arr2 = new Array();
+let length = parseInt(prompt("Enter the length of the array:"));
+let arr2 = [];
+
+for (let index = 0; index < length; index++) {
+  let input = prompt(`Enter elemen ${index + 1}:`);
+  arr2.push(input);
+}
+
+console.log(`Dynamic Array is: ${arr2}`);
